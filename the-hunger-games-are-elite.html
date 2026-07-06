@@ -1,36 +1,92 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Movie Suggestions</title>
+    <title>why have u never seen these</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>🎬 Hunger Games Marathon 🎬</h1>
+    <h1 class="movie-title">
+        <span class="static-text">It's time to watch</span>
+        <span id="wave-text">
+            <span>T</span>
+            <span>h</span>
+            <span>e</span>
+            <span>&nbsp;</span>
+            <span>H</span>
+            <span>u</span>
+            <span>n</span>
+            <span>g</span>
+            <span>e</span>
+            <span>r</span>
+            <span>&nbsp;</span>
+            <span>G</span>
+            <span>a</span>
+            <span>m</span>
+            <span>e</span>
+            <span>s</span>
+            <span>!</span>
+            <span>!</span>
+        </span>
+    </h1>
+ 
+    <p>you've been missing out for over 10 years...</p>
+ 
     <div class="movie-grid">
-        <div class="movie">
-            https://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg" width="250">
+ 
+        <div class="movie-card">
+            <div class="poster">
+                <img src="images/hg1.jpg" alt="The Hunger Games poster">
+            </div>
             <h3>The Hunger Games</h3>
+            <p class="year">2012</p>
         </div>
-        <div class="movie">
-            ://upload.wikimedia.org/wikipedia/en/3/31/Catching_Fire_poster.jpg" width="250">
+ 
+        <div class="movie-card">
+            <div class="poster">
+                <img src="images/hg2.jpg" alt="Catching Fire poster">
+            </div>
             <h3>Catching Fire</h3>
+            <p class="year">2013</p>
         </div>
-        <div class="movie">
-            https://upload.wikimedia.org/wikipedia/en/6/6f/Mockingjay_Part1_Poster.jpg
-            <h3>Mockingjay Part 1</h3>
+ 
+        <div class="movie-card">
+            <div class="poster">
+                <img src="images/hg3.jpg" alt="Mockingjay Part 1 poster">
+            </div>
+            <h3>Mockingjay – Part 1</h3>
+            <p class="year">2014</p>
         </div>
-        <div class="movie">
-            https://upload.wikimedia.org/wikipedia/en/9/9b/Mockingjay_Part_2_Poster.jpg
-            <h3>Mockingjay Part 2</h3>
+ 
+        <div class="movie-card">
+            <div class="poster">
+                <img src="images/hg4.jpg" alt="Mockingjay Part 2 poster">
+            </div>
+            <h3>Mockingjay – Part 2</h3>
+            <p class="year">2015</p>
         </div>
-        <div class="movie">
-            imedia.org/wikipedia/en/e/e4/The_Ballad_of_Songbirds_%26_Snakes_poster.jpg" width="250">
-            <h3>The Ballad of Songbirds & Snakes</h3>
+ 
+        <div class="movie-card">
+            <span class="bonus-badge">BONUS</span>
+            <div class="poster">
+                <img src="images/hg5.jpg" alt="The Ballad of Songbirds and Snakes poster">
+            </div>
+            <h3>The Ballad of Songbirds and Snakes</h3>
+            <p class="year">2023</p>
         </div>
+ 
+        <div class="movie-card">
+            <span class="bonus-badge">BONUS</span>
+            <div class="poster">
+                <img src="images/hg6.jpg" alt="Sunrise on the Reaping poster">
+            </div>
+            <h3>Sunrise on the Reaping</h3>
+            <p class="year">Coming Nov 20, 2026</p>
+        </div>
+ 
     </div>
-    <br>
-    index.html
-        ⬅ Back
-    </button>
+ 
+    <a href="index.html"><button id="back-btn">⬅ Back</button></a>
+ 
+    <script src="script.js"></script>
 </body>
+</html>
