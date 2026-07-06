@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #FFE5EC;
+    padding-top: 100px;
+}
+
+h1 {
+    color: #CDB4DB;
+    font-size: 48px;
+}
+
+p {
+    font-size: 22px;
+    color:#CDB4DB;
+}
+
+#wave-text {
+    font-size: 48px;
+    color: #FF8FAB;
+}
+
+#wave-text span {
+    display: inline-block;
+}
